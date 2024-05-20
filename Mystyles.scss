@@ -428,6 +428,12 @@ hr{
         text-align: center;
         order: 2;
     }
+    .input{
+        width:100px;
+    }
+    .card{
+        height: 50vh;
+    }
     .logo-text {
         font-size: 9.5vw;
     }
@@ -501,6 +507,25 @@ hr{
         background-repeat: no-repeat;
         height: 50vh;
         border-radius: 10px;
+    }
+    .content3 img{
+        display: none;
+    }
+    .our_story {
+        width: 100%;
+        margin-right: 40px;
+        color: white;
+    }    
+    .media-handles{
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    footer{
+        display: block;
+        margin-top: 10px;
+    }
+    footer div{
+        //border-top:2px solid gold;
     }
     
 }
