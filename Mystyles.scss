@@ -512,20 +512,21 @@ hr{
         display: none;
     }
     .our_story {
-        width: 100%;
+       // width: 100%;
         margin-right: 40px;
         color: white;
     }    
     .media-handles{
         display:grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(2,1fr);
     }
     footer{
         display: block;
         margin-top: 10px;
     }
-    footer div{
-        //border-top:2px solid gold;
+    .media-icons img{
+        border-radius: 10px;
+        margin: 5px;
     }
     
 }
@@ -537,5 +538,46 @@ hr{
         justify-content: space-between;
         margin-top: 10px;
         font-size: 15px;
+    }
+    .content {
+        display: flex;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.75);
+        font-size: 24px;
+        height: 10vh;
+        align-items: center;
+        margin-left: 0px;
+        margin-right: 0px; 
+        &3{
+            display: block;
+        }
+    }
+    .our_story{
+        width: 100%;
+
+    }
+    .logo-text{
+        font-size: 6.5vw;
+    }
+    .container .main {
+        background-image: url(./Images/House_13.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .card{
+        width: 35vw;
+    }
+    .image2{
+        background-size: cover;
+        background-position: center;
+    }
+    .media-handles{
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    footer{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
     }
 }
