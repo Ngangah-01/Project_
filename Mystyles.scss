@@ -421,22 +421,15 @@ hr{
 .locations .local p{
     margin-top: 18px;
 }
-
-
-// .card-wrapper{
-//     display: flex;
-// }
-// .card{
-//     margin: 0.5em;
-//     height: 60vh;
-//     width: calc(100%/3);
-// }
 @media screen and (max-width: 575.98px){
     .list{
         display: block;
         width:100%;
         text-align: center;
         order: 2;
+    }
+    .logo-text {
+        font-size: 9.5vw;
     }
     .menu-bar{
        // width: 00px;
@@ -472,7 +465,9 @@ hr{
         position: relative;
         width: 20px;
     }
-    
+    .main-text {
+        height: 30vh;
+    }
     .bars::before{
         top: -10px;
     }
@@ -492,7 +487,9 @@ hr{
         font-size: 24px;
         height: 10vh;
         align-items: center;
-        margin-top: -100px;
+        //margin-top: -50px;
+        margin-right: 0px;
+        margin-left: 0px;
     }
     .morecontent {
         border-top: 2px solid goldenrod;
