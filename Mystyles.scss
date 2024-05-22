@@ -212,13 +212,11 @@ a:hover {
     font-size: 15px;
     border-radius: 0 10px;
     border: 2px solid gold;
-    //transition-duration: 1s;
 }
 
 .drop-menu a {
     text-decoration: none;
     color: black;
-    //display: block;
 }
 
 .drop-menu a:hover {
@@ -354,6 +352,11 @@ img{
     align-items: top;
     background-color: black;
     color: white;
+    border: none;
+}
+.carousel-control-next-icon,.carousel-control-prev-icon{
+    background-color: rgb(37, 199, 75);  
+    border-radius: 10px;
 }
 .media-handles{
     display: flex;
@@ -375,16 +378,7 @@ img{
     bottom: -25px;
     left: 50%;
     transform:translateX(-50%);
-    
 }
-.twitter-text:hover,.insta-text:hover,.fb-text:hover,.git-text:hover,.yt-text:hover,.app-text:hover{
-    color:greenyellow;
-    text-decoration: underline;
-}
-.link1 img:hover + .twitter-text,.link2 img:hover + .insta-text,.link3 img:hover + .fb-text,.link4 img:hover + .git-text,.link5 img:hover + .yt-text,.link6 img:hover + .app-text{
-    color: greenyellow;
-}
-
 footer{
     margin-top: 30px;
     display: flex;
@@ -410,6 +404,7 @@ hr{
 .media-icons img{
     height:5vh;
     width:30px;
+    border-radius: 20px;
 }
 .locations img{
     height:4vh;
@@ -450,9 +445,6 @@ hr{
         display: block;
     }
     .toggle{
-      //  order: 1;
-    }
-    .toggle{
         cursor: pointer;
     }
     .bars{
@@ -467,7 +459,6 @@ hr{
         background-color: wheat;
         display: inline-block;
         height: 2px;
-        //position: absolute;
         position: relative;
         width: 20px;
     }
@@ -493,7 +484,6 @@ hr{
         font-size: 24px;
         height: 10vh;
         align-items: center;
-        //margin-top: -50px;
         margin-right: 0px;
         margin-left: 0px;
     }
@@ -565,8 +555,10 @@ hr{
         background-repeat: no-repeat;
         background-position: center;
     }
-    .card{
-        width: 35vw;
+    .carousel-item{
+        display:block;
+        margin-right: 0;
+        flex:0 0 calc(100%/2);
     }
     .image2{
         background-size: cover;
@@ -579,5 +571,30 @@ hr{
     footer{
         display: grid;
         grid-template-columns: repeat(2,1fr);
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991.98px){
+    .content{
+        margin-left: 0px;
+        margin-right: 0px;
+        font-size: 20px;
+    }
+    .container .main {
+        background-image: url(./Images/House_13.jpg);
+        background-size:cover;
+        background-position: center;
+    }
+    .carousel-item{
+        display:block;
+        margin-right: 0;
+        flex:0 0 calc(100%/3);
+    }
+    .content3 img {
+        height: 60vh;
+        width: 380px;
+    }
+    .media-handles{
+        display:grid;
+        grid-template-columns: repeat(4,1fr);
     }
 }
