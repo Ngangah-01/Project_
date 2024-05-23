@@ -3,11 +3,6 @@
     margin: 0px;
     box-sizing: border-box;
 }
-:root{
-    --primary-color:#edf2fc;
-    --secondary-color:black;
-}
-
 body{
     font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
@@ -27,9 +22,6 @@ body.light{
         a{
             color: black;
         }
-    }
-    .insta-text,.app-text,.yt-text,.fb-text,.twitter-text,.git-text{
-        color: black;
     }
     h4{
         color: black;
@@ -85,7 +77,6 @@ body.light{
     width: 25%;
     border-radius: 10px;
 }
-
 .components {
     display: flex;
     justify-content: space-between;
@@ -101,7 +92,7 @@ body.light{
         margin-right: 0;
         display: flex;
         .signIn-button{
-            width: 100px;
+            //width: 100px;
         }
     }
     img{
@@ -203,7 +194,22 @@ a:hover {
     font-size: 20px;
     margin-top: 10px;
 }
-
+.dropdown{
+    border:none;
+}
+.dropdown-toggle{
+    background-color: #030a51;
+}
+.btn-secondary{
+    background-color:black;
+    border: none;
+}
+.btn-secondary:hover{
+    background-color: goldenrod;
+}
+.btn-secondary:active{
+    background-color: goldenrod;
+}
 .drop-menu {
     margin-top: 0px;
     background-color: white;
@@ -224,7 +230,7 @@ a:hover {
     background-color: black;
 }
 
-.dropdown:hover .drop-menu,
+.dropdown1:hover .drop-menu,
 .dropdown3:hover .drop-menu {
     display: flex;
     flex-direction: column;
@@ -304,9 +310,6 @@ img {
     height: 90vh;
     margin-top: 30px;
     border-radius: 10px;
-}
-.card-slider{
-    border:2px solid red;
 }
 .img-wrapper{
     max-width: 100%;
@@ -416,6 +419,9 @@ hr{
 .locations .local p{
     margin-top: 18px;
 }
+// .menu-bar{
+//     display: none;
+// }
 @media screen and (max-width: 575.98px){
     .list{
         display: block;

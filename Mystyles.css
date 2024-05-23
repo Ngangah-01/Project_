@@ -4,11 +4,6 @@
   box-sizing: border-box;
 }
 
-:root {
-  --primary-color:#edf2fc;
-  --secondary-color:black;
-}
-
 body {
   font-family: "Times New Roman", Times, serif;
   font-size: 16px;
@@ -29,9 +24,6 @@ body.light footer {
   color: black;
 }
 body.light footer a {
-  color: black;
-}
-body.light .insta-text, body.light .app-text, body.light .yt-text, body.light .fb-text, body.light .twitter-text, body.light .git-text {
   color: black;
 }
 body.light h4 {
@@ -102,9 +94,6 @@ body.light .our_story {
 .components .signIn {
   margin-right: 0;
   display: flex;
-}
-.components .signIn .signIn-button {
-  width: 100px;
 }
 .components img {
   margin-right: 5px;
@@ -214,6 +203,27 @@ a:hover {
   margin-top: 10px;
 }
 
+.dropdown {
+  border: none;
+}
+
+.dropdown-toggle {
+  background-color: #030a51;
+}
+
+.btn-secondary {
+  background-color: black;
+  border: none;
+}
+
+.btn-secondary:hover {
+  background-color: goldenrod;
+}
+
+.btn-secondary:active {
+  background-color: goldenrod;
+}
+
 .drop-menu {
   margin-top: 0px;
   background-color: white;
@@ -234,7 +244,7 @@ a:hover {
   background-color: black;
 }
 
-.dropdown:hover .drop-menu,
+.dropdown1:hover .drop-menu,
 .dropdown3:hover .drop-menu {
   display: flex;
   flex-direction: column;
@@ -320,10 +330,6 @@ img {
   height: 90vh;
   margin-top: 30px;
   border-radius: 10px;
-}
-
-.card-slider {
-  border: 2px solid red;
 }
 
 .img-wrapper {

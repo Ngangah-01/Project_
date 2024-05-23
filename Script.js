@@ -6,7 +6,7 @@ checkbox.addEventListener('change',()=>{
 });
 
 function display(){
-  document.getElementById('item').style.display = 'block';
+  document.getElementsByClassName('list').style.display = 'block';
 }
 // Get the carousel element
 var carousel = document.querySelector('#carouselExampleControls');
