@@ -324,7 +324,7 @@ img {
 }
 
 .image2 {
-  background-image: url(./Images/House_8.jpg);
+  background-image: url(./Images/House_12.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 90vh;
@@ -558,6 +558,12 @@ hr {
     border-radius: 10px;
     margin: 5px;
   }
+  .carousel-inner {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 20px;
+  }
 }
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
   .navbar {
@@ -635,4 +641,10 @@ hr {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
   }
+}
+.carousel-inner {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding: 20px;
 }/*# sourceMappingURL=Mystyles.css.map */

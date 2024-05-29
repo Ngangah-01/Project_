@@ -301,7 +301,7 @@ img {
     font-weight: 900;
 }
 .image2{
-    background-image: url(./Images/House_8.jpg);
+    background-image: url(./Images/House_12.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 90vh;
@@ -508,7 +508,7 @@ hr{
     .media-handles{
         display:grid;
         grid-template-columns: repeat(2,1fr);
-    }SDSSZDXC
+    }
     footer{
         display: block;
         margin-top: 10px;
@@ -516,6 +516,12 @@ hr{
     .media-icons img{
         border-radius: 10px;
         margin: 5px;
+    }
+    .carousel-inner {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 20px;
     }
     
 }
@@ -597,17 +603,16 @@ hr{
         grid-template-columns: repeat(4,1fr);
     }
 }
-// .carousel-inner {
-//     display: flex;
-//    // flex-wrap: nowrap;
-//     overflow-x: auto;
-//     padding: 20px;
-//   }
-  
-//   .carousel-item {
-//       flex: 0 0 25%; /* adjust the width of each carousel item */
-//       margin: 10px;
-//   }
+.carousel-inner {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 20px;
+}
+// .carousel-item {
+//     flex: 0 0 25%; /* adjust the width of each carousel item */
+//     margin: 10px;
+// }
   
 //   .carousel-control-prev, .carousel-control-next {
 //     width: 40px;
