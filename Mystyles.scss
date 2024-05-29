@@ -91,9 +91,6 @@ body.light{
     .signIn {
         margin-right: 0;
         display: flex;
-        .signIn-button{
-            //width: 100px;
-        }
     }
     img{
         margin-right: 5px;
@@ -419,9 +416,6 @@ hr{
 .locations .local p{
     margin-top: 18px;
 }
-// .menu-bar{
-//     display: none;
-// }
 @media screen and (max-width: 575.98px){
     .list{
         display: block;
@@ -439,7 +433,6 @@ hr{
         font-size: 9.5vw;
     }
     .menu-bar{
-       // width: 00px;
         height: 20px;
         margin-right: 0px;
     }
@@ -508,14 +501,14 @@ hr{
         display: none;
     }
     .our_story {
-       // width: 100%;
+        width: 100%;
         margin-right: 40px;
         color: white;
-    }    
+    }
     .media-handles{
         display:grid;
         grid-template-columns: repeat(2,1fr);
-    }
+    }SDSSZDXC
     footer{
         display: block;
         margin-top: 10px;
@@ -604,3 +597,26 @@ hr{
         grid-template-columns: repeat(4,1fr);
     }
 }
+// .carousel-inner {
+//     display: flex;
+//    // flex-wrap: nowrap;
+//     overflow-x: auto;
+//     padding: 20px;
+//   }
+  
+//   .carousel-item {
+//       flex: 0 0 25%; /* adjust the width of each carousel item */
+//       margin: 10px;
+//   }
+  
+//   .carousel-control-prev, .carousel-control-next {
+//     width: 40px;
+//     height: 40px;
+//     background-color: #fff;
+//     border-radius: 50%;
+//     cursor: pointer;
+//   }
+  
+//   .carousel-control-prev:hover, .carousel-control-next:hover {
+//     background-color: #ddd;
+//   }

@@ -542,6 +542,7 @@ hr {
     display: none;
   }
   .our_story {
+    width: 100%;
     margin-right: 40px;
     color: white;
   }
