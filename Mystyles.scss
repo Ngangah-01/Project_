@@ -355,8 +355,8 @@ img{
     border: none;
 }
 .carousel-control-next-icon,.carousel-control-prev-icon{
-    background-color: rgb(37, 199, 75);  
-    border-radius: 10px;
+    background-color: rgb(0, 0, 0);  
+    // border-radius: 10px;
 }
 .media-handles{
     display: flex;
@@ -607,6 +607,7 @@ hr{
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
+    scrollbar-width: none;
     padding: 20px;
 }
 // .carousel-item {
